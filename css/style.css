@@ -1,4 +1,106 @@
-h1 {
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(50,52,55);
+  font-family: Raleway, sans-serif;
+}
+header{
+  width: 100%;
+  padding: 30px;
+  background-color: rgb(190,49,68);
+  display: flex;
+  justify-content: flex-end;
+} 
+header p{
+  margin: 0px 10px;
+  font-size: 24px;
+  font-weight: 400;
+
+  color: white;
+}
+
+#welcome-section{
+  width: 100%;
+  height: 80vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#welcome-section h1{
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 78px;
+  font-family: Raleway, sans-serif;
+  color: #f0f0f0;
+
+}
+#welcome-section p{
+  font-size: 28px;
+  font-weight: 200;
+  line-height: 39px;
+  font-family: Raleway, sans-serif;
+  color: rgb(190,49,68);
+
+
+}
+.project-section{
+  width: 100%;
+  padding: 120px 30px;
+  background-color: rgb(69,86,125);
+  color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project-section h2{
+  font-size: 40px;
+  line-height: 80px;
   text-align: center;
-  color: blue;
+  /* text-decoration: underline; */
+}
+.projects-grid{
+  width: 300px;
+  height: 200px;
+  background-color: gray;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 20px;
+  
+}
+.project-tile{
+  margin-bottom: 10px;
+  color: #f0f0f0;
+}
+.contact-section{
+  padding: 120px 60px;
+}
+.contact-header{
+  /* margin: 20px;
+  padding: 20px; */
+}
+.contact-header h2{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 70px;
+  font-family: Raleway, sans-serif;
+  color: #f0f0f0;
+
+}
+.contact-header p{
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 39px;
+  font-family: Raleway, sans-serif;
+  color: gray;
 }
